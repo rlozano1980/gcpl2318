@@ -4,6 +4,7 @@ connection: "thelook"
 include: "/views/**/*.view.lkml"
 
 #dommychange
+#dommychange2
 
 datagroup: mtr_rlozano_test_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
