@@ -224,7 +224,7 @@ explore: xss_test {}
 
 explore: xss_test_1 {}
 
-explore: xss_test_10 {}
+explore: xss_test_10v1 {}
 
 explore: xss_test_11 {}
 

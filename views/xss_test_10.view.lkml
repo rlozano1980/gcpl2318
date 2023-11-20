@@ -1,5 +1,5 @@
-view: xss_test_10 {
-  sql_table_name: demo_db.xss_test_10 ;;
+view: xss_test_10v1 {
+  sql_table_name: demo_db.xss_test_10v1 ;;
 
   dimension: div_stylebackgroundimage_urljavascriptprompt2 {
     type: string
