@@ -53,10 +53,10 @@ view: users {
     type: count
     drill_fields: [detail*]
   }
-  dimension: estado {
-    type: string
-    sql: ${TABLE}.state ;;
-  }
+ ## dimension: estado {
+   # type: string
+    #sql: ${TABLE}.state ;;
+  #}
   # ----- Sets of fields for drilling ------
   set: detail {
     fields: [
