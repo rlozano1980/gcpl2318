@@ -125,6 +125,9 @@ explore: order_items {
   }
 }
 
+
+
+
 explore: order_items_vijaya {
   join: orders {
     type: left_outer
@@ -207,7 +210,12 @@ explore: test {}
 
 explore: test_space_in_column_name {}
 
-explore: users {}
+explore: users {
+  access_filter: {
+    field: users.city
+    user_attribute: data_tools_access
+    }
+}
 
 explore: user_data {
   join: users {
