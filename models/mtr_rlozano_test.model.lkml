@@ -211,10 +211,12 @@ explore: test {}
 explore: test_space_in_column_name {}
 
 explore: users {
-  access_filter: {
-    field: users.city
-    user_attribute: data_tools_access
-    }
+  #label: "DVP4M - Global"
+  #view_label: "Dvp4m"
+  #access_filter: {
+    #field: users.city
+  #  user_attribute: data_tools_access
+  #  }
 }
 
 explore: user_data {
