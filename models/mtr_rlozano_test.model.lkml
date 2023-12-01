@@ -7,6 +7,7 @@ include: "/views/**/*.view.lkml"
 #dommychange2
 #dommychange4
 #dummychange5
+#dummychange6
 
 datagroup: mtr_rlozano_test_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
